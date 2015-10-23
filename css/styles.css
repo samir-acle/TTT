@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 500px;
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+}
+
+.square {
+  width: 33%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: 2px solid black;
+  height: 100px;
+}
+
+.clicked {
+  background: MediumSpringGreen;
+}
